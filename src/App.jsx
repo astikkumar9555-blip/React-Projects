@@ -1,21 +1,15 @@
  import React from "react";
  import "./App.css";
+
+ import Header from "./Component/Header";
  
+ import TodoItem from './Component/TodoItem';
+
  function App(){
     return (
       <>
-      <div className="Background">
-         
-         <div className="main-container">
-          <h1>Todoie App</h1>
-
-          <option value="">
-            Leetcode
-          </option>
-         </div>
-      </div>
-      
-      
+      <Header  />
+      <TodoItem />
       </>
 
     );
