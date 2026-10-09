@@ -5,12 +5,16 @@
  
  import TodoItem from './Component/TodoItem';
 
+ import Button from './Component/Button';
+
+ import './index.css';
  function App(){
     return (
-      <>
+      < div className="todo-container">
       <Header  />
       <TodoItem />
-      </>
+      <Button/>
+      </div>
 
     );
  }

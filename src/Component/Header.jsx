@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header=()=>{
-    return <p>Todoie App</p>;
+    return <h1 className="todo-header">Todo</h1>;
 };
 
 export default Header;
